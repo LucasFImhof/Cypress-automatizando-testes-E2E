@@ -1,0 +1,147 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-04T03:07:43.012Z",
+    "end": "2024-12-04T03:07:47.105Z",
+    "duration": 4093,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "41706501-e76a-4259-9557-4a8de0c9785e",
+      "title": "",
+      "fullFile": "cypress\\e2e\\PaginaInicial.cy.js",
+      "file": "cypress\\e2e\\PaginaInicial.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "db2eaf45-9e6f-4593-bdc5-4bd706c42502",
+          "title": "Testes na Página principal",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verifica se o texto adopet está presente na página inicial”",
+              "fullTitle": "Testes na Página principal Verifica se o texto adopet está presente na página inicial”",
+              "timedOut": null,
+              "duration": 719,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "54c6e79a-4579-4641-acdf-da7074f2ae28",
+              "parentUUID": "db2eaf45-9e6f-4593-bdc5-4bd706c42502",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verifica se o texto ‘Quem ama adota!” está presenten no html",
+              "fullTitle": "Testes na Página principal Verifica se o texto ‘Quem ama adota!” está presenten no html",
+              "timedOut": null,
+              "duration": 586,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "75d566ac-d2bd-485c-8cbb-e6cabf714960",
+              "parentUUID": "db2eaf45-9e6f-4593-bdc5-4bd706c42502",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verifica se o texto ‘Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!",
+              "fullTitle": "Testes na Página principal Verifica se o texto ‘Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!",
+              "timedOut": null,
+              "duration": 344,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "47eca9b1-d2e3-4074-a397-29463aca7d2c",
+              "parentUUID": "db2eaf45-9e6f-4593-bdc5-4bd706c42502",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "54c6e79a-4579-4641-acdf-da7074f2ae28",
+            "75d566ac-d2bd-485c-8cbb-e6cabf714960",
+            "47eca9b1-d2e3-4074-a397-29463aca7d2c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1649,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "charts": false,
+        "code": false,
+        "reportTitle": "Relatório de Testes E2E - Projeto XYZ",
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
