@@ -1,16 +1,16 @@
-import { users } from '../fixtures/usuarios.json' // importa a massa de dados Users das fixtures
+import { usuarios } from '../fixtures/usuarios.json' // Importa a fexture usuários
 
-describe('Página de cadastro', () => {
+describe('Página de cadastro', () => { // Visita o site Adopet e clica em cadastrar
     beforeEach(() => {
-        cy.visit('https://adopet-frontend-cypress.vercel.app'); // Visita o site Adopet
-        cy.get('[data-test="register-button"]').click(); // Clica em cadastro
+        cy.visit('https://adopet-frontend-cypress.vercel.app');
+        cy.get('[data-test="register-button"]').click();
     })
-    users.forEach(users => { // Percorre toda a lista de usuários presente na fixture users
+    usuarios.forEach(usuario => { // Percorre a fixture Usuarios e realiza o cadastro.
         it('Deve preencher os campos do formulário corretamente para cadastrar um novo usuário', () => {
-            cy.get('[data-test="input-name"]').clear().type(user.name); // Preenche o nome no cadastro com base da fixture
-            cy.get('[data-test="input-email"]').clear().type(user.email); // Preenche o email no cadastro com base da fixture
-            cy.get('[data-test="input-password"]').clear().type(user.password); // Preenche o senha no cadastro com base da fixture
-            cy.get('[data-test="input-confirm-password"]').clear().type(user.password); // Preenche o senha no cadastro com base da fixture
+            cy.get('[data-test="input-name"]').clear().type(usuario.name);
+            cy.get('[data-test="input-email"]').clear().type(usuario.email);
+            cy.get('[data-test="input-password"]').clear().type(usuario.password);
+            cy.get('[data-test="input-confirm-password"]').clear().type(usuario.password);
             cy.get('[data-test="submit-button"]').click();
         })
     })
