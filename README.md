@@ -2,7 +2,8 @@
 
 ## Sobre o Projeto
 
-O **AdoPet** é uma aplicação que conecta pessoas interessadas em adotar pets com ONGs que possuem animais para adoção. Projeto utilizado para aplicação dos conhecimentos adiquiridos ao longo do curso de **Cypress**, para automatização de testes ent-to-end.
+O **AdoPet** é uma aplicação que conecta pessoas interessadas em adotar pets com ONGs que possuem animais para adoção. 
+Projeto utilizado para aplicação dos conhecimentos adiquiridos ao longo do curso de **Cypress**, para automatização de testes ent-to-end.
 
 - **Front-End:** [Acessar Front-End](https://adopet-frontend-cypress.vercel.app)
 - **Back-End:** [Acessar Back-End](https://adopet-api-i8qu.onrender.com/adotante/)
