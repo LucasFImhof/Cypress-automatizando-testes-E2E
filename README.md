@@ -60,13 +60,25 @@ Caso esteja no Windows, recomenda-se utilizar o **WSL (Windows Subsystem for Lin
    ```bash
    npm install
    ```
-4. Inicie o ambiente de desenvolvimento.
-
+4. Atualizar o NPM (opcional)
+   ```bash
+   npm install -g npm@latest
+   ```
+5. Inicializar o projeto com o NPM
+   ```bash
+   npm init
+   ```
+   
 ---
 
 ## Principais Comandos do Cypress
 
 Durante os testes, utilize os seguintes comandos do Cypress:
+
+### Instalar o Cypress 
+```bash
+npm install cypress --save-dev
+```
 
 ### Executar o Cypress
 ```bash
